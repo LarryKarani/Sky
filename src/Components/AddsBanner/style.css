@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  flex: 1;
+  align-items: center;
+  padding-left: 8%;
+  padding-top: 5%;
+  font-weight: 80;
+}
+.header {
+  font-size: 58px;
+  color: #1f1f1f;
+  font-family: Raleway;
+  font-weight: 800;
+  line-height: 69px;
+}
+.text {
+  height: 66px;
+  width: 433px;
+  color: #1f1f1f;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.deal-expires-in-01 {
+  height: 22px;
+  width: 333px;
+  color: #1f1f1f;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.image-container {
+  flex: 1;
+  position: relative;
+}
+.discount-circle {
+  position: absolute;
+  top: 10px;
+  left: 260px;
+  width: 236.83px;
+  height: 236.83;
+}
+.black-bubble {
+  position: absolute;
+  top: 150px;
+  left: 260px;
+  width: 131px;
+  height: 138px;
+  z-index: 3;
+}
+
+.delivery {
+  height: 57px;
+  width: 84px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+  z-index: 4;
+  position: absolute;
+  top: 195px;
+  left: 280px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.discount-line {
+
+  width: 63.21px;
+  z-index: 5;
+  position: absolute;
+  top: 139px;
+  left: 360px;
+
+}
+
+.discount {
+  height: 47px;
+  width: 104px;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 47px;
+  z-index: 5;
+  position: absolute;
+  top: 95px;
+  left: 340px;
+  color: #FFFFFF;
+  text-align: center;
+
+}

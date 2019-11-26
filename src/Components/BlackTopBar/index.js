@@ -3,8 +3,7 @@ import './style.css'
 
 const TobBar = () => {
     return (
-        <div className="top-bar">
-            
+        <div className="top-bar">  
         </div>
     )
 }
