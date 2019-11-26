@@ -1,7 +1,9 @@
 import React from "react";
 import "./style.css";
+import countdownTimeStart from "../../Utils/timer"
 
 const Banner = () => {
+  window.onload = countdownTimeStart();
   return (
     <div className="main-container">
       <div className="text-container">
@@ -11,7 +13,7 @@ const Banner = () => {
           choosing something special. Here is few of the sweet things we found
           and you might like.
         </p>
-        <h2 className="deal-expires-in-01">Deal expires in 1:23:05 hrs</h2>
+        <span id="timer" className="deal-expires-in-01"></span>
       </div>
       <div className="image-container">
         <img
