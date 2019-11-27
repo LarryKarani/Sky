@@ -17,6 +17,7 @@ const Banner = () => {
       </div>
       <div className="image-container">
         <img
+          className="shoping-lady"
           src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574769675/SkyTest/shoppinglady_1.png"
           alt="shoping is great"
         />
