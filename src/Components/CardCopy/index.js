@@ -16,7 +16,7 @@ const CardCopy = () => {
           </h5>
         </div>
 
-        <button className="get-started-button">Start Live Chart</button>
+        <button className="get-started-button">Open your shop</button>
       </div>
     </div>
   );
