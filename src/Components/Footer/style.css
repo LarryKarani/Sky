@@ -1,0 +1,155 @@
+.footer {
+  margin-top: 40px;
+  background-image: url("https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958012/SkyTest/Footer_image_1.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 725px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+} 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  /* justify-content: center!important; */
+}
+.custom-column {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  margin-top: 300px;
+}
+
+.row-details {
+  height: 16px;
+  color: #b2b5b8;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 20px;
+}
+
+.data {
+  height: 12.85px;
+  width: 25.47px;
+}
+
+.lock {
+  height: 21px;
+  width: 16px;
+}
+
+.arrow {
+  color: #ffffff;
+  height: 21px;
+  width: 16px;
+}
+
+.logo-app {
+  width: 370px;
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 100;
+  left: 500px;
+}
+.play {
+  height: 51px;
+  width: 173px;
+}
+.appstore {
+  width: 173px;
+  height: 51px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 10;
+  left: 500px;
+  z-index: 1000;
+  top: 150px;
+}
+
+
+@media (max-width: 1200px) {
+  .footer {
+    height: 780px;
+  }
+  .custom-column {
+  width: 300px;
+  margin-top: 480px;
+}
+.appstore {
+  top: 270px;
+}
+.logo-app {
+  top:150px;
+}
+}
+
+
+@media (min-width: 1204px) {
+  .footer {
+    height: 780px;
+  }
+  .custom-column {
+  width: 300px;
+  margin-top: 480px;
+}
+.appstore {
+  top: 270px;
+}
+.logo-app {
+  top:150px;
+}
+}
+
+@media (max-width: 992px) {
+  .row{
+    flex-wrap: nowrap;
+  }
+ .footer {
+    height: 780px;
+  }
+}
+@media (max-width: 888px) {
+   .appstore {
+  width: 100px;
+}
+.play {
+  width: 100px;
+}
+.logo-app{
+  width: 300px;
+}
+.logo{
+  width: 120px;
+}
+}
+
+@media (max-width: 773px) {
+   .appstore {
+  width: 80px;
+}
+.play {
+  width: 80px;
+}
+.logo-app{
+  width: 200px;
+}
+.logo{
+  width: 90px;
+}
+}
+@media (max-width: 576px) {
+  .appstore {
+  top: 270px;
+}
+.logo-app {
+  top:150px;
+}
+}

@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import ProductCard from "../../Components/ProductCard";
 import Card from "../../Components/Card";
-import CardCopy from "../../Components/CardCopy"
+import CardCopy from "../../Components/CardCopy";
+import Footer from "../../Components/Footer"
 import "./style.css";
 export default class Products extends Component {
   constructor(props) {
@@ -80,14 +81,11 @@ export default class Products extends Component {
         >
           LOAD MORE
         </button>
-        <div className="customer">
-        <div>
-            <div className="row content-holder">
-            <Card />
-            <CardCopy />
-          </div>
+        <div className="row content-holder">
+          <Card />
+          <CardCopy />
         </div>
-        </div>
+        <Footer />
       </div>
     );
   }

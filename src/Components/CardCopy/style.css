@@ -2,7 +2,7 @@
 
 #retailer-card {
   height: 427px;
-  width: 583px;
+  width: 700px;
   background-image: url("https://res.cloudinary.com/dy1bghrrm/image/upload/v1574873016/SkyTest/readytosell.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -10,36 +10,27 @@
   background-color: #fff;
 }
 
-.customer-care {
+.ready-sell {
   min-height: 114px;
   width: 245px;
   color: #231f20;
   font-size: 49px;
   font-weight: 800;
   line-height: 57px;
-  text-align: left;
   padding-left: 60px;
   font-family: Raleway;
+  margin-top: 20px;
 }
-
-.item-details {
-  position: absolute;
-  margin-left: 60px;
-  z-index: 10;
-  color: #121212;
-  font-family: Raleway;
-  font-size: 16px;
-}
-
 .text-details {
   margin-top: 60px;
   height: 154px;
-  width: 180px;
+  width: 221px;
   color: #121212;
   font-family: Raleway;
   font-size: 16px;
   font-weight: bold;
   line-height: 25px;
+  padding-left: 60px;
 }
 .get-started-button {
   padding: 1rem;
@@ -60,8 +51,26 @@
   border-radius: 3px;
   background-color: #ffffff;
   position: absolute;
-  top: 360px;
-  left: 66px;
-  color: #48ffc8;
+  color: #01A8A0;;
   font-weight: bold;
+  margin-left: 30px;
+}
+
+@media (max-width: 992px) {
+  #retailer-card {
+    height: 423px;
+    width: 565px;
+  }
+}
+@media (max-width: 768px) {
+  #retailer-card {
+    height: 420px;
+    width: 550px;
+  }
+}
+@media (max-width: 576px) {
+  #retailer-card {
+    height: 415px;
+    width: 525px;
+  }
 }

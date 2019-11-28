@@ -1,25 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
 
 #customer-care-card {
-  height: 427px;
-  width: 583px;
   background-image: url("https://res.cloudinary.com/dy1bghrrm/image/upload/v1574873026/SkyTest/Customer_care.png");
   background-repeat: no-repeat;
   background-position: right;
   position: relative;
   background-color: #fff;
-}
-
-.customer-care {
-  min-height: 114px;
-  width: 245px;
-  color: #231f20;
-  font-size: 49px;
-  font-weight: 800;
-  line-height: 57px;
-  text-align: left;
-  padding-left: 60px;
-  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  height: 427px;
+  width: 583px;
 }
 
 .item-details {
@@ -27,14 +17,21 @@
   width: 221px;
   margin-left: 60px;
   text-align: left;
-  margin-top: 60px;
-  z-index: 10;
-  color: #121212;
-  font-family: Raleway;	
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 19px;
+  margin-top: 20px;
 }
+
+.customer-care {
+    min-height: 114px;
+    width: 245px;
+    color: var(--primary-black);
+    font-size: 49px;
+    font-weight: 800;
+    line-height: 57px;
+    text-align: left;
+    padding-left: 60px;
+    font-family: Raleway;
+    padding-top: 20px;
+  }
 
 .num {
   margin-top: 20px;
@@ -88,8 +85,52 @@
   background-color: #ffffff;
   position: absolute;
   top: 360px;
-  left: 66px;
+  left: 30px;
   color: #48ffc8;
   font-weight: bold;
 }
 
+.item-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  #customer-care-card {
+    height: 427px;
+    width: 583px;
+  }
+  .customer-care {
+    min-height: 114px;
+    width: 245px;
+    color: var(--primary-black);
+    font-size: 49px;
+    font-weight: 800;
+    line-height: 57px;
+    text-align: left;
+    padding-left: 60px;
+    font-family: Raleway;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #customer-care-card {
+    height: 423px;
+    width: 565px;
+  }
+}
+@media (max-width: 768px) {
+  #customer-care-card {
+    height: 420px;
+    width: 550px;
+  }
+}
+@media (max-width: 576px) {
+  #customer-care-card {
+    height: 415px;
+    width: 525px;
+  }
+}
