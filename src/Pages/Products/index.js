@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import ProductCard from "../../Components/ProductCard";
+import Card from "../../Components/Card";
+import CardCopy from "../../Components/CardCopy"
 import "./style.css";
 export default class Products extends Component {
   constructor(props) {
@@ -66,7 +68,8 @@ export default class Products extends Component {
     return (
       <div className="wrapper">
         <div className="products">
-          { product_list  && product_list.map((product, index) => (
+          {product_list &&
+            product_list.map((product, index) => (
               <ProductCard product={product} key={index} />
             ))}
         </div>
@@ -77,6 +80,14 @@ export default class Products extends Component {
         >
           LOAD MORE
         </button>
+        <div className="customer">
+        <div>
+            <div className="row content-holder">
+            <Card />
+            <CardCopy />
+          </div>
+        </div>
+        </div>
       </div>
     );
   }

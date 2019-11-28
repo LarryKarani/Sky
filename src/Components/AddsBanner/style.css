@@ -27,6 +27,8 @@
   font-family: Raleway;
   font-size: 14px;
   line-height: 22px;
+  height: 66px;
+  width: 433px;
 }
 
 .deal-expires-in-01 {
@@ -182,4 +184,8 @@
     width: 250.83px;
     height: 200.83px;
   }
+  .text {
+  width: unset;
+}
+
 }
