@@ -67,7 +67,6 @@ export default class Products extends Component {
     const count = this.state.visible;
     const { products } = this.state;
     let product_list = products ? products.slice(0, count) : null;
-     console.log(product_list);
     return (
       <div className="wrapper">
         <div className="products">
