@@ -4,27 +4,27 @@ import "font-awesome/css/font-awesome.min.css";
 
 const footer = () => {
   return (
-    <div className="center-flex footer">
-      <div className="row">
-        <div className=" logo-app">
-          <h3>
-            GET{" "}
-            <img
-              alt="Logo"
-              className="logo"
-              src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958029/SkyTest/skygarden_logo_pos_copy.png"
-            ></img>{" "}
-            App. It's free!
-          </h3>
-        </div>
-        <div className="appstore">
+    <div className="footer">
+      <div className=" logo-app">
+        <h3>
+          GET{" "}
           <img
             alt="Logo"
-            className="play"
-            src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958032/SkyTest/Playstore.png"
-          ></img>
-        </div>
-        <div className="col-lg-3 margin-bottom-20 custom-column">
+            className="logo"
+            src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958029/SkyTest/skygarden_logo_pos_copy.png"
+          ></img>{" "}
+          App. It's free!
+        </h3>
+      </div>
+      <div className="appstore">
+        <img
+          alt="Logo"
+          className="play"
+          src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958032/SkyTest/Playstore.png"
+        ></img>
+      </div>
+      <div className="footer-row">
+        <div className="col-lg-3 custom-column">
           <div>
             <h5>COMPANY</h5>
             <div className="row-details">
@@ -35,7 +35,7 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 no-padding margin-bottom-20 custom-column">
+        <div className="col-lg-3 no-padding custom-column">
           <div>
             <h5>CONTACT US</h5>
             <div className="row-details">
@@ -45,7 +45,7 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 no-padding margin-bottom-20 custom-column">
+        <div className="col-lg-3 no-padding custom-column">
           <div>
             <h5>SHOPING WITH US IS EASY</h5>
             <div className="row-details">
@@ -73,7 +73,7 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 no-padding margin-bottom-20 custom-column">
+        <div className="col-lg-3 no-padding custom-column">
           <div>
             <h5>FOLLOW OUR NEWS</h5>
             <div className="row-details">

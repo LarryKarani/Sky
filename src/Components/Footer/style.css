@@ -15,23 +15,20 @@ body{
   align-items: center;
   justify-content: center;
   display: inline-block;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  margin-bottom: 0;
+  margin-bottom: 0;  
+  position: relative;
 }
-.row {
+.footer-row{
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-  /* justify-content: center!important; */
+  justify-content: center!important;
+  /* background-color: teal; */
+  padding-top: 0;
 }
 .custom-column {
-  width: 300px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
   color: white;
-  margin-top: 300px;
 }
 
 .row-details {
@@ -54,7 +51,6 @@ body{
   height: 21px;
   width: 16px;
 }
-
 .arrow {
   color: #ffffff;
   height: 21px;

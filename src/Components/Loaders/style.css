@@ -52,7 +52,7 @@
   height: 5px;
   background-color: rgba(231, 225, 225, 0.897);
   margin: auto;
-  margin-top: 20px;
+  margin-top: unset;
 }
 
 .price-loader {
