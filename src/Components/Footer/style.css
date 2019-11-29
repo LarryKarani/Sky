@@ -1,3 +1,9 @@
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  margin:0;
+}
 .footer {
   margin-top: 40px;
   background-image: url("https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958012/SkyTest/Footer_image_1.jpg");
@@ -9,7 +15,10 @@
   align-items: center;
   justify-content: center;
   display: inline-block;
-} 
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +42,7 @@
   font-weight: 500;
   line-height: 16px;
   margin-top: 20px;
+  flex: 1 0 auto;
 }
 
 .data {
@@ -74,82 +84,101 @@
   top: 150px;
 }
 
-
 @media (max-width: 1200px) {
   .footer {
     height: 780px;
   }
   .custom-column {
-  width: 300px;
-  margin-top: 480px;
+    width: 300px;
+    margin-top: 480px;
+  }
+  .appstore {
+    top: 270px;
+  }
+  .logo-app {
+    top: 150px;
+  }
 }
-.appstore {
-  top: 270px;
-}
-.logo-app {
-  top:150px;
-}
-}
-
 
 @media (min-width: 1204px) {
   .footer {
     height: 780px;
   }
   .custom-column {
-  width: 300px;
-  margin-top: 480px;
-}
-.appstore {
-  top: 270px;
-}
-.logo-app {
-  top:150px;
-}
+    width: 300px;
+    margin-top: 480px;
+  }
+  .appstore {
+    top: 270px;
+  }
+  .logo-app {
+    top: 150px;
+  }
 }
 
 @media (max-width: 992px) {
-  .row{
+  .row {
     flex-wrap: nowrap;
   }
- .footer {
+  .footer {
     height: 780px;
   }
 }
 @media (max-width: 888px) {
-   .appstore {
-  width: 100px;
-}
-.play {
-  width: 100px;
-}
-.logo-app{
-  width: 300px;
-}
-.logo{
-  width: 120px;
-}
+  .appstore {
+    width: 100px;
+  }
+  .play {
+    width: 100px;
+  }
+  .logo-app {
+    width: 300px;
+  }
+  .logo {
+    width: 120px;
+  }
 }
 
 @media (max-width: 773px) {
-   .appstore {
-  width: 80px;
-}
-.play {
-  width: 80px;
-}
-.logo-app{
-  width: 200px;
-}
-.logo{
-  width: 90px;
-}
-}
-@media (max-width: 576px) {
   .appstore {
-  top: 270px;
+    width: 80px;
+  }
+  .play {
+    width: 80px;
+  }
+  .logo-app {
+    width: 200px;
+  }
+  .logo {
+    width: 90px;
+  }
 }
-.logo-app {
-  top:150px;
+
+@media (max-width: 667px) {
+  .appstore {
+    width: 80px;
+  }
+  .play {
+    width: 80px;
+  }
+  .logo-app {
+    width: 150px;
+  }
+  .logo {
+    width: 60px;
+  }
 }
+@media (max-width: 603px) {
+  .appstore {
+    width: 70px;
+  }
+  .play {
+    width: 70px;
+  }
+  .logo-app {
+    width: 130px;
+  }
+  .logo {
+    width: 50px;
+  }
 }

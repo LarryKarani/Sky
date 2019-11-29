@@ -5,13 +5,15 @@ import Card from "../../Components/Card";
 import CardCopy from "../../Components/CardCopy";
 import Footer from "../../Components/Footer"
 import "./style.css";
+import Skeleton from "react-loading-skeleton";
+import Loaders from "../../Components/Loaders"
 export default class Products extends Component {
   constructor(props) {
     super(props);
     this.state = {
       products: null,
       visible: 12,
-      isLoading: false,
+      isLoading: true,
       loadmore: false
     };
 
@@ -69,10 +71,11 @@ export default class Products extends Component {
     return (
       <div className="wrapper">
         <div className="products">
-          {product_list &&
-            product_list.map((product, index) => (
-              <ProductCard product={product} key={index} />
-            ))}
+          {(product_list && !this.state.isLoading)
+            ? product_list.map((product, index) => (
+                <ProductCard product={product} key={index} />
+              ))
+            : <Loaders/>}
         </div>
         <button
           type="button"

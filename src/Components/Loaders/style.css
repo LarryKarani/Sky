@@ -1,0 +1,80 @@
+.card-loader {
+  height: 462px;
+  width: 250px;
+  position: relative;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  flex-grow: inherit;
+  background-color: white;
+  align-items: center;
+}
+
+.product-image-loader {
+  height: 234px;
+  width: 156px;
+  align-self: center;
+  background-color: rgba(231, 225, 225, 0.897);
+  margin: auto;
+  margin-top: 40px;
+}
+
+.top-left-loader {
+  padding-left: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(231, 225, 225, 0.897);
+  height: 28px;
+  width: 78px;
+  border-top: 28px solid rgba(231, 225, 225, 0.897);
+  border-right: 8px solid white;
+}
+.product-title-loader {
+  color: #171717;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  width: 60px;
+  height: 5px;
+  background-color: rgba(231, 225, 225, 0.897);
+  margin: auto;
+}
+
+.product-text-loader {
+  color: #777777;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 80px;
+  height: 5px;
+  background-color: rgba(231, 225, 225, 0.897);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.price-loader {
+  color: #55d187;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  width: 20px;
+  height: 5px;
+  background-color: rgba(231, 225, 225, 0.897);
+}
+
+.previous-price-loader {
+  color: #787878;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-left: 20px;
+  text-decoration: line-through;
+  width: 70px;
+  height: 20px;
+  background-color: rgba(231, 225, 225, 0.897);
+}
