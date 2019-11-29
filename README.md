@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.com/larryTheGeek/Sky.svg?branch=master)](https://travis-ci.com/larryTheGeek/Sky) [![Coverage Status](https://coveralls.io/repos/github/larryTheGeek/Sky/badge.svg?branch=master)](https://coveralls.io/github/larryTheGeek/Sky?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/449ad4779064ad3ec61c/maintainability)](https://codeclimate.com/github/larryTheGeek/Sky/maintainability)
+[![Build Status](https://travis-ci.com/larryTheGeek/Sky.svg?branch=master)](https://travis-ci.com/larryTheGeek/Sky) 
+[![Coverage Status](https://coveralls.io/repos/github/larryTheGeek/Sky/badge.svg?branch=master)](https://coveralls.io/github/larryTheGeek/Sky?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/449ad4779064ad3ec61c/maintainability)](https://codeclimate.com/github/larryTheGeek/Sky/maintainability)
 
 *Sky.Garden -  Interview test*
 =======

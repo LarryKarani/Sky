@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import Products from "./index";
 import { shallow, mount } from "enzyme";
 
@@ -14,3 +14,10 @@ it("should update state when the load more button is clicked", () => {
   expect(component.state("visible")).toEqual(24);
   component.unmount();
 });
+
+// it("should call get product when the component is mounted", () => {
+//     const component = mount(<Products/>);
+//     const spy = jest.spyOn(Component.prototype, "getProduct");
+//     component.instance().getProduct();
+//     expect(spy).toHaveBeenCalled();
+// })
