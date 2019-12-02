@@ -5,28 +5,29 @@ import "font-awesome/css/font-awesome.min.css";
 const footer = () => {
   return (
     <div className="footer">
-      <div className=" logo-app">
+      <div className="logo-app">
         <h3>
           GET{" "}
           <img
             alt="Logo"
             className="logo"
             src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958029/SkyTest/skygarden_logo_pos_copy.png"
-          ></img>{" "}
+          />{" "}
           App. It's free!
         </h3>
       </div>
+
       <div className="appstore">
         <img
           alt="Logo"
           className="play"
           src="https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958032/SkyTest/Playstore.png"
-        ></img>
+        />
       </div>
-      <div className="footer-row">
-        <div className="col-lg-3 custom-column">
+      <div className="row footer-row">
+        <div className="col-sm-3">
           <div>
-            <h5>COMPANY</h5>
+            <h5 className="custom-column">COMPANY</h5>
             <div className="row-details">
               <p>About Us</p>
               <p>Sell with Sky.Garden</p>
@@ -35,9 +36,9 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 no-padding custom-column">
+        <div className="col-sm-3">
           <div>
-            <h5>CONTACT US</h5>
+            <h5 className="custom-column">CONTACT US</h5>
             <div className="row-details">
               <p>FAQ Center</p>
               <p>hello@sky.garden</p>
@@ -45,9 +46,9 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 no-padding custom-column">
+        <div className="col-sm-3">
           <div>
-            <h5>SHOPING WITH US IS EASY</h5>
+            <h5 className="custom-column">SHOPING WITH US IS EASY</h5>
             <div className="row-details">
               <p>
                 <img
@@ -66,26 +67,26 @@ const footer = () => {
                 Secure payment online or on delivery
               </p>
               <p>
-                <i className="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                <i className="fa fa-arrow-circle-left" aria-hidden="true" />
                 {"  "}
                 Free returns
               </p>
             </div>
           </div>
         </div>
-        <div className="col-lg-3 no-padding custom-column">
+        <div className="col-sm-3 ">
           <div>
-            <h5>FOLLOW OUR NEWS</h5>
+            <h5 className="custom-column">FOLLOW OUR NEWS</h5>
             <div className="row-details">
               <p>
-                <i className="fa fa-facebook-official" aria-hidden="true"></i>{" "}
+                <i className="fa fa-facebook-official" aria-hidden="true" />{" "}
                 FaceBook
               </p>
               <p>
-                <i className="fa fa-instagram" aria-hidden="true"></i> Instagram
+                <i className="fa fa-instagram" aria-hidden="true" /> Instagram
               </p>
               <p>
-                <i className="fa fa-linkedin-square" aria-hidden="true"></i>{" "}
+                <i className="fa fa-linkedin-square" aria-hidden="true" />{" "}
                 LinkdIn
               </p>
             </div>

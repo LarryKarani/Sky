@@ -1,31 +1,21 @@
-body{
-  display: flex;
-  flex-direction: column;
-  height: 100vh; 
-  margin:0;
-}
 .footer {
   margin-top: 40px;
   background-image: url("https://res.cloudinary.com/dy1bghrrm/image/upload/v1574958012/SkyTest/Footer_image_1.jpg");
   background-repeat: no-repeat;
   background-position: cover;
-  height: 725px;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  display: inline-block;
   background-size: cover;
   background-position: center;
-  margin-bottom: 0;  
+  margin-bottom: 0;
   position: relative;
+  width: 100vw;
+  height: 780px;
 }
-.footer-row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center!important;
-  /* background-color: teal; */
-  padding-top: 0;
+.footer-row {
+  position: absolute;
+  top: 500px;
 }
 .custom-column {
   color: white;
@@ -84,10 +74,6 @@ body{
   .footer {
     height: 780px;
   }
-  .custom-column {
-    width: 300px;
-    margin-top: 480px;
-  }
   .appstore {
     top: 270px;
   }
@@ -100,10 +86,7 @@ body{
   .footer {
     height: 780px;
   }
-  .custom-column {
-    width: 300px;
-    margin-top: 480px;
-  }
+
   .appstore {
     top: 270px;
   }
