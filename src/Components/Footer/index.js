@@ -25,31 +25,26 @@ const footer = () => {
         />
       </div>
       <div className="row footer-row">
-        <div className="col-sm-3">
-          <div>
+        <div className="col-lg-3">
+          <div className="inner-details">
             <h5 className="custom-column">COMPANY</h5>
-            <div className="row-details">
               <p>About Us</p>
               <p>Sell with Sky.Garden</p>
               <p>Sky.Garden Blog</p>
               <p>Returns and Exchange</p>
-            </div>
           </div>
         </div>
-        <div className="col-sm-3">
-          <div>
+        <div className="col-lg-3">
+          <div className="inner-details no-padding">
             <h5 className="custom-column">CONTACT US</h5>
-            <div className="row-details">
               <p>FAQ Center</p>
               <p>hello@sky.garden</p>
               <p>5th Floor, Senteu Plaza Nairobi Kenya</p>
-            </div>
           </div>
         </div>
-        <div className="col-sm-3">
-          <div>
+        <div className="col-lg-3">
+          <div className="inner-details">
             <h5 className="custom-column">SHOPING WITH US IS EASY</h5>
-            <div className="row-details">
               <p>
                 <img
                   className="data"
@@ -71,13 +66,11 @@ const footer = () => {
                 {"  "}
                 Free returns
               </p>
-            </div>
           </div>
         </div>
-        <div className="col-sm-3 ">
-          <div>
+        <div className="col-lg-3 ">
+          <div className="inner-details">
             <h5 className="custom-column">FOLLOW OUR NEWS</h5>
-            <div className="row-details">
               <p>
                 <i className="fa fa-facebook-official" aria-hidden="true" />{" "}
                 FaceBook
@@ -89,7 +82,6 @@ const footer = () => {
                 <i className="fa fa-linkedin-square" aria-hidden="true" />{" "}
                 LinkdIn
               </p>
-            </div>
           </div>
         </div>
       </div>

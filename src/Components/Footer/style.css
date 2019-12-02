@@ -21,17 +21,6 @@
   color: white;
 }
 
-.row-details {
-  height: 16px;
-  color: #b2b5b8;
-  font-family: Raleway;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  margin-top: 20px;
-  flex: 1 0 auto;
-}
-
 .data {
   height: 12.85px;
   width: 25.47px;
@@ -69,7 +58,15 @@
   z-index: 1000;
   top: 150px;
 }
-
+.inner-details{
+  padding-left: 20px;
+  color: #b2b5b8;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 20px;
+}
 @media (max-width: 1200px) {
   .footer {
     height: 780px;
