@@ -76,3 +76,30 @@
     margin-left: 20px;
     text-decoration: line-through;
 }
+
+@media (max-width: 842px) {
+  .card {
+    width: 200px;
+  }
+  .product-image {
+  	height: 234px;
+    width: 156px;
+}
+  .previous-price {
+    line-height: 2px;
+    margin-left: 10px;
+}
+}
+@media (max-width: 476px) {
+  .card {
+    width: 150px;
+  }
+  .product-image {
+  	height: 234px;
+    width: 130px;
+}
+  .previous-price {
+    line-height: 2px;
+    margin-left: 5px;
+}
+}
